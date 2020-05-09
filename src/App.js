@@ -376,7 +376,7 @@ class App extends Component {
 
     let f = new Formatter();
     const finalSQL = f.format(tokens);
-    console.log(finalSQL);
+    console.log(tokens);
     document.getElementById("outputSQL").value = finalSQL;
   };
 }
