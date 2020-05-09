@@ -1,21 +1,11 @@
 import tokenTypes from "./tokenTypes";
-import InlineBlock from "./InlineBlock";
-import Indentation from "./indentation";
 import Params from "./Params";
 import includes from "lodash/includes";
 
 class Formatter {
-  constructor(tokenizer) {
-    this.indentation = new Indentation("     ");
-    this.inlineBlock = new InlineBlock();
-    this.params = new Params("X");
-
-    this.previousReservedWord = {};
-    this.tokens = [];
-    this.index = 0;
-  }
   format = (tokens) => {
-    console.log("inside formatter");
+    console.log("inside formatter", tokens);
+
     const finalSQL = this.getFormattedSQL(tokens);
     return finalSQL;
   };
