@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SQLFormatter/static/css/main.13734f3c.chunk.css",
-    "main.js": "/SQLFormatter/static/js/main.b3f5a365.chunk.js",
-    "main.js.map": "/SQLFormatter/static/js/main.b3f5a365.chunk.js.map",
+    "main.css": "/SQLFormatter/static/css/main.fd5d7993.chunk.css",
+    "main.js": "/SQLFormatter/static/js/main.08e6f1a2.chunk.js",
+    "main.js.map": "/SQLFormatter/static/js/main.08e6f1a2.chunk.js.map",
     "runtime-main.js": "/SQLFormatter/static/js/runtime-main.2c50e643.js",
     "runtime-main.js.map": "/SQLFormatter/static/js/runtime-main.2c50e643.js.map",
     "static/js/2.e4f9490e.chunk.js": "/SQLFormatter/static/js/2.e4f9490e.chunk.js",
     "static/js/2.e4f9490e.chunk.js.map": "/SQLFormatter/static/js/2.e4f9490e.chunk.js.map",
     "index.html": "/SQLFormatter/index.html",
-    "precache-manifest.86e4a25b8287eced8c21ca98b1e3df1b.js": "/SQLFormatter/precache-manifest.86e4a25b8287eced8c21ca98b1e3df1b.js",
+    "precache-manifest.8ac41acd90dc8ceb11d2ef25b299f7ea.js": "/SQLFormatter/precache-manifest.8ac41acd90dc8ceb11d2ef25b299f7ea.js",
     "service-worker.js": "/SQLFormatter/service-worker.js",
-    "static/css/main.13734f3c.chunk.css.map": "/SQLFormatter/static/css/main.13734f3c.chunk.css.map",
+    "static/css/main.fd5d7993.chunk.css.map": "/SQLFormatter/static/css/main.fd5d7993.chunk.css.map",
     "static/js/2.e4f9490e.chunk.js.LICENSE.txt": "/SQLFormatter/static/js/2.e4f9490e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c50e643.js",
     "static/js/2.e4f9490e.chunk.js",
-    "static/css/main.13734f3c.chunk.css",
-    "static/js/main.b3f5a365.chunk.js"
+    "static/css/main.fd5d7993.chunk.css",
+    "static/js/main.08e6f1a2.chunk.js"
   ]
 }

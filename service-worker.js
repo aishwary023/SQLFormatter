@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SQLFormatter/precache-manifest.86e4a25b8287eced8c21ca98b1e3df1b.js"
+  "/SQLFormatter/precache-manifest.8ac41acd90dc8ceb11d2ef25b299f7ea.js"
 );
 
 self.addEventListener('message', (event) => {

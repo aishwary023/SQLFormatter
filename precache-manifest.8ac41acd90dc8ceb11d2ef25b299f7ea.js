@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3869972eefbf972e2fca3f5746d74d5d",
+    "revision": "ddd460b7fa16013f48715b6374780e55",
     "url": "/SQLFormatter/index.html"
   },
   {
-    "revision": "ea21c7c823d108be05fc",
-    "url": "/SQLFormatter/static/css/main.13734f3c.chunk.css"
+    "revision": "f1c1207ba02553d568d2",
+    "url": "/SQLFormatter/static/css/main.fd5d7993.chunk.css"
   },
   {
     "revision": "8674519292241a69ede2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SQLFormatter/static/js/2.e4f9490e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea21c7c823d108be05fc",
-    "url": "/SQLFormatter/static/js/main.b3f5a365.chunk.js"
+    "revision": "f1c1207ba02553d568d2",
+    "url": "/SQLFormatter/static/js/main.08e6f1a2.chunk.js"
   },
   {
     "revision": "0c304749856d4da77fbb",
