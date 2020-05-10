@@ -9,7 +9,7 @@ class Button extends Component {
         id="formatBtn"
         onClick={this.props.onClick}
       >
-        Format!
+        {this.props.value}
       </button>
     );
   }

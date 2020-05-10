@@ -60,12 +60,6 @@ export default class Tokenizer {
     return new RegExp("^(" + this.createStringPattern(stringTypes) + ")");
   }
 
-  // This enables the following string patterns:
-  // 1. backtick quoted string using `` to escape
-  // 2. square bracket quoted string (SQL Server) using ]] to escape
-  // 3. double quoted string using "" or \" to escape
-  // 4. single quoted string using '' or \' to escape
-  // 5. national character quoted string using N'' or N\' to escape
   createStringPattern(stringTypes) {
     const patterns = {
       "``": "((`[^`]*($|`))+)",
@@ -87,10 +81,8 @@ export default class Tokenizer {
 
   escapeParen(paren) {
     if (paren.length === 1) {
-      // A single punctuation character
       return escapeRegExp(paren);
     } else {
-      // longer word
       return "\\b" + paren + "\\b";
     }
   }
@@ -108,11 +100,9 @@ export default class Tokenizer {
     const tokens = [];
     let token;
 
-    // Keep processing the string until it is empty
     while (input.length) {
-      // Get the next token and the token type
       token = this.getNextToken(input, token);
-      // Advance the string
+
       input = input.substring(token.value.length);
 
       tokens.push(token);
@@ -242,7 +232,6 @@ export default class Tokenizer {
     );
   }
 
-  // Decimal, binary, or hex numbers
   getNumberToken(input) {
     return this.getTokenOnFirstMatch({
       input,
@@ -251,7 +240,6 @@ export default class Tokenizer {
     });
   }
 
-  // Punctuation and symbols
   getOperatorToken(input) {
     return this.getTokenOnFirstMatch({
       input,
@@ -261,8 +249,6 @@ export default class Tokenizer {
   }
 
   getReservedWordToken(input, previousToken) {
-    // A reserved word cannot be preceded by a "."
-    // this makes it so in "mytable.from", "from" is not considered a reserved word
     if (previousToken && previousToken.value && previousToken.value === ".") {
       return;
     }

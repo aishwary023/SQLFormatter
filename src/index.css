@@ -47,3 +47,8 @@ code {
   border: 2px solid black;
   font-size: 14px;
 }
+
+#btnConatiner {
+  display: flex;
+  flex-direction: column;
+}
