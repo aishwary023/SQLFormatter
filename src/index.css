@@ -21,7 +21,10 @@ code {
   }
   formatBtn {
     height: 21px;
-    margin: 5px;
+  }
+  button {
+    margin-left: 21px;
+    margin-bottom: 5px;
   }
 }
 
